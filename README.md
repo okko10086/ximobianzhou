@@ -16,8 +16,14 @@
 覆盖 **28,139 个 cmap 字符 / 20,992 个基本区汉字 / 6,592 个扩展 A 区**，含拉丁字母、数字、
 全套中文标点（含竖排标点）与全角符号。**不含假名、谚文、希腊与西里尔字母**——这一版只做中文排版。
 
-> 桌面 TTF 约 38 MB，**未随本仓库分发**——见 [Releases](../../releases) 下载。
-> 本仓库只放网页字体 `fonts/XimoBianZhou-Regular.woff2`。
+仓库内两个文件都在 `fonts/` 下：
+
+| 文件 | 大小 | 用途 |
+|---|---|---|
+| `fonts/XimoBianZhou-Regular.ttf` | 38 MB | 桌面安装（macOS / Windows） |
+| `fonts/XimoBianZhou-Regular.woff2` | 11 MB | 网页 `@font-face` |
+
+也可以从 [Releases](../../releases) 下载同样的文件。
 
 ## 设计说明
 
